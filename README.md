@@ -16,6 +16,7 @@ Data Sources:
 
 - Average rides per city type
 ![Ride Count Box and Whisker Plot](analysis/Fig2.png)
+
 - Total rides per city type
 ![Total Rides Pie Chart](analysis/Fig6.png)
 
@@ -23,8 +24,10 @@ Data Sources:
 
 - Average fares per city type 
 ![Ride Fare Box and Whisker Plot](analysis/Fig3.png)
+
 - Total fares per city type
 ![Total Fares Pie Chart](analysis/Fig5.png)
+
 - Monthly totals per city type
 ![Total Fare Multiple Line Graph](analysis/PyBer_fare_summary.png)
 
@@ -32,6 +35,7 @@ Data Sources:
 
 - Average driver count per city type
 ![Driver Count Box and Whisker Plot](analysis/Fig4.png)
+
 -Total driver count per city type
 ![Total Drivers Pie Chart](analysis/Fig7.png)
 
