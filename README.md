@@ -2,10 +2,7 @@
 
 ## Project Overview
 
-A Python-based ride sharing company requested an analysis that showcased the relationship betweeen the type of city (Rural,Urban & Suburban), the number of drivers, riders, and averafe fares, and percentage of total fares, riders and drivers by type of city. This was used to help determine affordability for under served neighborhoods. 
-
-In this analysis, a multiple-line graph was used to display the average fare per week for each type of city.
-
+Pyber a ride sharing company requested an analysis that showcased the differences betweeen the three types of of cities (Rural,Urban & Suburban) where the company operates. The main areas of focus here were the number and percentages of drivers, riders, and averafe fares by type of city using python's pandas, numpy, and matplotlib libraries. This was used to help determine affordability for under served neighborhoods. 
 
 ## Resources
 Data Sources: 
@@ -15,23 +12,32 @@ Data Sources:
 
 ## Results
 
-![Avg Fare Bubble Chart](analysis/Fig1.png)
+### Rides per City Type
 
+- Average rides per city type
 ![Ride Count Box and Whisker Plot](analysis/Fig2.png)
-
-![Ride Fare Box and Whisker Plot](analysis/Fig3.png)
-
-![Driver Count Box and Whisker Plot](analysis/Fig4.png)
-
-![Total Fares Pie Chart](analysis/Fig5.png)
-
+- Total rides per city type
 ![Total Rides Pie Chart](analysis/Fig6.png)
 
-![Total Drivers Pie Chart](analysis/Fig7.png)
+### Fares per City Type
 
+- Average fares per city type 
+![Ride Fare Box and Whisker Plot](analysis/Fig3.png)
+- Total fares per city type
+![Total Fares Pie Chart](analysis/Fig5.png)
+- Monthly totals per city type
 ![Total Fare Multiple Line Graph](analysis/PyBer_fare_summary.png)
 
-Given the graphs above we can conclude the following: 
+### Drivers per City Type
+
+- Average driver count per city type
+![Driver Count Box and Whisker Plot](analysis/Fig4.png)
+-Total driver count per city type
+![Total Drivers Pie Chart](analysis/Fig7.png)
+
+
+
+Based on the results lsited above we can conclude the following: 
 
   - Rural cities has the least amount of drivers, rides and total fares.
   - Urban cities have the most amount of drivers, rides and total fares.
@@ -43,8 +49,10 @@ Given the graphs above we can conclude the following:
 
 ### Summary of Previous Analysis
 
-The data indicates there is a negative correlation between number of drivers, and riders to the average fare of a city dependent on its type. 
-The analysis indicated that cities with the greatest number of drivers, and riders, which travel shorter distances as in the case of urban areas, will have the lowest fares. 
+The analysis indicates the following key points: 
+
+1) Rural cities represent 5.0% of total rides and 6.8% of fares, with only 2.6% of drivers. Incentitives should be made to attract more drivers to underrepresented areas by showing them that on average they can make more per ride compared to other city types. 
+2) In contrast, we should increase riders in rural areas by showing them that on average they spend less per ride compared to other city types. 
 
 ### Multiple-line Graph   
 
